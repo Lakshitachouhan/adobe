@@ -1,0 +1,428 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.main-container{
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-block: 30px;
+}
+.navbar img{
+    width: 40px;
+}
+.navbar h5{
+    font-size: 18px;
+}
+.navbar p{
+    font-size: 16px;
+    color: #323232;
+}
+.firstpage{
+    width: 100%;
+    background-color: #721957;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 130px;
+    padding-block: 50px;
+}
+.firstpage h1{
+    font-weight: 400;
+    font-size: 50px;
+}
+.firstpage p{
+    font-size: 25px;
+    padding-top: 15px;
+}
+.secondpage{
+    width: 100%;
+    padding-block: 50px;
+}
+.secondpage-para{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding-block: 40px;
+}
+.secondpage-para h6{
+    font-size: 30px;
+    font-weight: 400;
+}
+.secondpage-para p{
+    font-size: 25px;
+}
+.second-card{
+    display: flex;
+    justify-content: center ;
+    gap: 40px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card h5{
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 15px;
+}
+.card p{
+    padding-block: 10px;
+    font-size: 15px;
+    font-weight: 300;
+
+}
+.card a{
+    color: #1473E6;
+    text-decoration: none;
+}
+.card a:hover{
+    border-bottom: 1px solid #1473E6;
+}
+.thirdpage{
+    background-color: #323232;
+    padding-block: 50px;
+}
+.third-page{
+    width: 100%;
+    max-width: 80%;
+    margin: auto;
+    color: white;
+   
+   
+}
+.third-page h3{
+    padding-block: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    font-weight: 400;
+}
+.third-page span {
+    /* font-size: 20px; */
+    display: flex;
+    justify-content: space-between;
+    padding-block: 20px;
+}
+.third-page span a{
+    color: white;
+}
+.third-page span h5{
+    font-size: 23px;
+    font-weight: 400;
+}
+.third-page  p{
+    padding-bottom: 20px;
+    font-weight: 300;
+
+}
+.box{
+    max-width: 80%;
+    margin: auto;
+    color: white;
+    display: flex;
+    
+    /* margin: 10px; */
+    
+    /* gap: 20px; */
+}
+.box1{
+    padding: 35px;
+    margin: 10px;
+    background-color: #505050;
+    border-radius: 5px;
+}
+.box1 h5{
+    font-size: 15px;
+    font-weight: 500;
+    /* padding-block: 20px;  */
+}
+.box1 p{
+    padding-block: 30px;
+    font-size: 15px;
+
+    font-weight: 300;
+}
+.box1 span img{
+
+width: 30px;
+
+}
+.box1 span{
+    display: flex;
+    gap: 20px;
+}
+.xd{
+    max-width: 50%;
+    justify-content: start;
+    /* margin: auto; */
+    color: white;
+}
+.jira{
+    max-width: 80%;
+    margin: auto;
+    background-color: #505050;
+}
+.xd{
+    padding: 40px;
+padding-block: 30px;
+}
+.xd img{
+padding-bottom: 40px;
+}
+.bringing p{
+    padding-block: 20px;
+    font-weight: 300;
+    /* text-align: center; */
+}
+.bringing h4{
+    font-weight: 400;
+}
+.bringing a{
+    padding-top: 20px;
+    color: white;
+}
+.fourthpage{
+    width: 100%;
+    background-color: #F4F4F4;
+}
+    /* .showcase{
+        max-width: 80%;
+        margin: auto;
+    } */
+.part{
+    max-width:93%;
+    margin: auto;
+    display: flex;
+    padding-inline: 100px;
+    padding-block: 40px;
+}
+.leftpart{
+    width: 50%;
+}
+.leftpart img{
+    width: 100%;
+    /* height: 1000px; */
+}
+.rightpart{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column  ;
+    
+}
+.rightpart img{
+    width: 200px;
+}
+.rightpartpara{
+    padding-inline: 90px;
+}
+.rightpart h5{
+    padding-block: 20px;
+    font-weight: 500;
+}
+.rightpartpara p{
+    font-size:15px ;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+.showcase{
+    max-width: 80%;
+    margin: auto;
+}
+.showcase h1{
+    
+    font-weight: 400;
+    padding-top: 40px;
+}
+.fifthpage h1{
+    width: 100%;
+    padding-left: 160px;
+    padding-block: 30px;
+    font-weight: 400;
+    
+}
+.fifthcard{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+}
+.fifthcard1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+}
+.fifthcard img{
+    width: 100%;
+    
+}
+.sixthpage{
+    background-color:#323232;
+}
+.footer{
+    max-width: 80%;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-block: 45px;
+}
+.footer span{
+    display: flex;
+    gap: 10px;
+    font-weight: 300;
+    font-size: 15px;
+}
+.footer p{
+    font-size: 15px;
+}
+
+
+
+
+
+@media (max-width:768px) {
+    .navbar h5{
+        font-size: 14px;
+    }
+    .navbar p{
+        font-size: 12px;
+    }
+    .firstpage{
+        width: 100%;
+        display: flex;
+        padding-inline: 10px;
+    }
+    .firstpage h1{
+        font-weight: 400;
+        font-size: 30px;
+        /* padding-left: px; */
+    }
+    .firstpage p{
+        font-size: 18px;
+        padding-top: 15px
+    }
+    .firstpage img{
+        width: 275px;
+    }
+    .third-page h3{ 
+    font-size: 22px;
+    }
+    .thirdpage span{
+        margin-top: -14px;
+    }
+    .third-page span h5{
+        font-size: 22px;
+    }
+    .third-page span a{
+      font-size: 12px;
+    }
+    .third-page p{
+    font-size: 12px;
+    } 
+    .box1{
+        padding: 10px;
+    }
+    .box1 p{
+        display: none;
+    }
+    .box1 span {
+        margin-top: 10px;
+    }
+    .box1 h5{
+        font-size: 12px;
+        padding-bottom: 20px;
+    }
+    .xd{
+        max-width: 100%;
+    }
+    .bringing h4{
+        font-size: 13px;
+    }
+    .bringing p{
+        font-size: 12px;
+    }
+    .bringing a{
+        font-size: 10px;
+    }
+    .showcase h1{
+        font-size: 25px;
+    }
+    .part{
+        padding-inline: 10px;
+    }
+    .rightpart img{
+        display: none;
+    }
+    .leftpart img{
+        width: 430px;
+    }
+    .rightpart h5{
+        font-size: 12px;
+    }
+    .rightpart p{
+        font-size: 10px;
+        /* padding-block: none; */
+    }
+    .rightpartpara{
+        margin-left: 25px;
+    }
+    .rightpart h5{
+        padding-block: 5px;
+    }
+    .fifthpage h1{
+        font-size: 25px;
+    }
+    .fifthcard1 p{
+        font-size: 12px;
+    }
+    .footer{
+        max-width: 100%;
+        padding-inline: 30px;
+        padding-block: 20px;
+        margin-top: 10px;
+
+    }
+    .secondpage-para h6{
+        font-size: 25px;
+    }
+    .secondpage-para p{
+        font-size: 20px;
+    }
+    .footer p{
+        font-size: 13px;
+        /* padding-inline: 0px; */
+    }
+   }
+   @media (max-width:550px){
+.box{
+    display: flex;
+    flex-direction: column;
+}
+.leftpart img{
+    width: 250px;
+}
+.rightpartpara{
+    padding-inline: 0px;
+}
+   }
